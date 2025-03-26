@@ -47,11 +47,12 @@ transition: slide-up
 # Who am I?
 
 Senior Software Developer at [SAS](https://www.sas.com/)
+
 - 👴 **Experience** - 13+ years of experience in Software Development at SAS
-  - <div><carbon:logo-react /> 6+ years in React</div> 
+  - <div><carbon:logo-react /> 6+ years in React</div>
   - <div><carbon:workflow-automation /> 4+ years on Ops Team</div>
-Why am I here?
-🤷🏽‍♂️
+    Why am I here?
+    🤷🏽‍♂️
 - I agree with Code the Dream's mission
 - I can't shut up sometimes
 - Right now, I can't shut up about DevOps
@@ -104,7 +105,6 @@ The practice of merging code changes into a shared repository frequently, ideall
 
 The practice of automatically deploying code changes to a shared repository to a production environment. Continuous Delivery means that the code is always in a deployable state, but the deployment is triggered manually. Continuous Deployment means that the code is automatically deployed to production.
 
-
 ---
 layout: image-right
 image: https://cover.sli.dev
@@ -116,7 +116,6 @@ transition: slide-left
 DevOps refers to a set of practices that integrates software development (Dev) and IT operations (Ops) to streamline the systems development life cycle. Its primary goal is to achieve faster and more reliable delivery of high-quality software.
 
 Beyond being a methodology, DevOps can be described as a culture or movement that fosters collaboration and communication among software developers, IT professionals, and other stakeholders involved in the software development process.
-
 
 <!--
 Notes can also sync with clicks
@@ -142,11 +141,11 @@ Add multiple code blocks and wrap them with <code>````md magic-move</code> (four
 ```ts {*|2|*}
 // step 1
 const author = reactive({
-  name: 'John Doe',
+  name: "John Doe",
   books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery',
+    "Vue 2 - Advanced Guide",
+    "Vue 3 - Basic Guide",
+    "Vue 4 - The Mystery",
   ],
 });
 ```
@@ -157,11 +156,11 @@ export default {
   data() {
     return {
       author: {
-        name: 'John Doe',
+        name: "John Doe",
         books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery',
+          "Vue 2 - Advanced Guide",
+          "Vue 3 - Basic Guide",
+          "Vue 4 - The Mystery",
         ],
       },
     };
@@ -174,11 +173,11 @@ export default {
 export default {
   data: () => ({
     author: {
-      name: 'John Doe',
+      name: "John Doe",
       books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery',
+        "Vue 2 - Advanced Guide",
+        "Vue 3 - Basic Guide",
+        "Vue 4 - The Mystery",
       ],
     },
   }),
@@ -191,11 +190,11 @@ Non-code blocks are ignored.
 <!-- step 4 -->
 <script setup>
 const author = {
-  name: 'John Doe',
+  name: "John Doe",
   books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery',
+    "Vue 2 - Advanced Guide",
+    "Vue 3 - Basic Guide",
+    "Vue 4 - The Mystery",
   ],
 };
 </script>
@@ -561,8 +560,8 @@ Slidev provides built-in Monaco Editor support.
 Add `{monaco}` to the code block to turn it into an editor:
 
 ```ts {monaco}
-import { ref } from 'vue';
-import { emptyArray } from './external';
+import { ref } from "vue";
+import { emptyArray } from "./external";
 
 const arr = ref(emptyArray(10));
 ```
@@ -570,16 +569,16 @@ const arr = ref(emptyArray(10));
 Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
 
 ```ts {monaco-run}
-import { version } from 'vue';
-import { emptyArray, sayHello } from './external';
+import { version } from "vue";
+import { emptyArray, sayHello } from "./external";
 
 sayHello();
 console.log(`vue ${version}`);
 console.log(
   emptyArray<number>(10).reduce(
     (fib) => [...fib, fib.at(-1)! + fib.at(-2)!],
-    [1, 1]
-  )
+    [1, 1],
+  ),
 );
 ```
 
