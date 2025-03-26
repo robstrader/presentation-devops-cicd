@@ -14,7 +14,7 @@ class: text-center
 drawings:
   persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
-transition: slide-left
+transition: fade
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 ---
@@ -27,25 +27,34 @@ CI/CD: The Fellowship of the Build
   One does not simply skip to the next slide. <carbon:arrow-right />
 </div>
 
+<div class="abs-br m-6 text-xl">
+  <button @click="$slidev.nav.openInEditor" title="Open in Editor" class="slidev-icon-btn">
+    <carbon:edit />
+  </button>
+  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
+    <carbon:logo-github />
+  </a>
+</div>
+
+<!--
+The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+-->
+
+---
+transition: slide-up
 ---
 
-## transition: fade-out
+# Who am I?
 
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-  <br>
-  <br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
+Senior Software Developer at [SAS](https://www.sas.com/)
+- 👴 **Experience** - 13+ years of experience in Software Development at SAS
+  - <div><carbon:logo-react /> 6+ years in React</div> 
+  - <div><carbon:workflow-automation /> 4+ years on Ops Team</div>
+Why am I here?
+🤷🏽‍♂️
+- I agree with Code the Dream's mission
+- I can't shut up sometimes
+- Right now, I can't shut up about DevOps
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.
@@ -69,103 +78,45 @@ Here is another comment.
 -->
 
 ---
-
-transition: slide-up
-level: 2
-
+transition: slide-left
 ---
 
-# Navigation
+# What are we building?
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
+A simple Vite Single Page Application (SPA) with a few components, a test suite and a deployment pipeline.
 
-## Keyboard Shortcuts
-
-|                                                    |                             |
-| -------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                | next animation or slide     |
-| <kbd>left</kbd> / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                      | previous slide              |
-| <kbd>down</kbd>                                    | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+- **Vite** - A modern build tool for frontend projects.
+- **Vitest** - A test runner for Vite.
+- **GitHub Actions** - A CI/CD tool for GitHub repositories.
+- **GitHub Pages** - A free static site hosting service.
 
 ---
-
-layout: two-cols
-layoutClass: gap-16
-
+transition: slide-down
 ---
 
-# Table of contents
+# What is CI/CD?
 
-You can use the `Toc` component to generate a table of contents for your slides:
+## Continuous Integration (CI)
 
-```html
-<Toc minDepth="1" maxDepth="1" />
-```
+The practice of merging code changes into a shared repository frequently, ideally several times a day. Each merge triggers an automated build and test process to verify that the changes did not break the application.
 
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
+## Continuous Delivery or Continuous Deployment (CD)
 
-::right::
+The practice of automatically deploying code changes to a shared repository to a production environment. Continuous Delivery means that the code is always in a deployable state, but the deployment is triggered manually. Continuous Deployment means that the code is automatically deployed to production.
 
-<Toc text-sm minDepth="1" maxDepth="2" />
 
 ---
-
 layout: image-right
 image: https://cover.sli.dev
-
+transition: slide-left
 ---
 
-# Code
+# What is DevOps?
 
-Use code snippets and get the highlighting directly, and even types hover!
+DevOps refers to a set of practices that integrates software development (Dev) and IT operations (Ops) to streamline the systems development life cycle. Its primary goal is to achieve faster and more reliable delivery of high-quality software.
 
-```ts {all|5|7|7-8|10|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
+Beyond being a methodology, DevOps can be described as a culture or movement that fosters collaboration and communication among software developers, IT professionals, and other stakeholders involved in the software development process.
 
-import { computed, ref } from 'vue';
-
-const count = ref(0);
-const doubled = computed(() => count.value * 2);
-
-doubled.value = 2;
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="334" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
 
 <!--
 Notes can also sync with clicks
@@ -550,6 +501,9 @@ dragPos:
 square: 691,32,167,\_,-16
 
 ---
+dragPos:
+  square: -114,0,0,0
+---
 
 # Draggable Elements
 
@@ -596,6 +550,7 @@ src: ./pages/imported-slides.md
 hide: false
 
 ---
+
 
 ---
 
