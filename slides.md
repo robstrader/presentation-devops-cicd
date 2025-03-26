@@ -5,7 +5,7 @@ theme: seriph
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 # some information about your slides (markdown enabled)
-title: Principles of DevOps
+title: "Build, Test, and Deploy Again: A DevOps Tale"
 info: |
   ## Rundown of the principles of DevOps
 # apply unocss classes to the current slide
@@ -19,9 +19,9 @@ transition: fade
 mdc: true
 ---
 
-# Principles of DevOps
+# Build, Test, and Deploy Again... A DevOps Tale
 
-CI/CD: The Fellowship of the Build
+## CI/CD: The Fellowship of the Build
 
 <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
   One does not simply skip to the next slide. <carbon:arrow-right />
@@ -48,14 +48,15 @@ transition: slide-up
 
 Senior Software Developer at [SAS](https://www.sas.com/)
 
-- 👴 **Experience** - 13+ years of experience in Software Development at SAS
+- 👴 **Experience** - 13+ years of experience in Software Development at SAS concentrating mostly on frontend development.
   - <div><carbon:logo-react /> 6+ years in React</div>
   - <div><carbon:workflow-automation /> 4+ years on Ops Team</div>
-    Why am I here?
-    🤷🏽‍♂️
-- I agree with Code the Dream's mission
-- I can't shut up sometimes
-- Right now, I can't shut up about DevOps
+  - 🖌️ Lots of UI component development.
+  - 🏗️ Lots of application build, testing, and overall architecture of a component library/framework.
+- 🤷🏽‍♂️ Why am I here?
+  - 🤝 I agree with Code the Dream's mission.
+  - 🤐 I can't shut up sometimes.
+  - 🔄 Right now, I can't shut up about DevOps.
 
 <!--
 You can have `style` tag in markdown to override the style for the current page.
