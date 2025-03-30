@@ -42,6 +42,7 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 transition: slide-up
+layout: intro
 ---
 
 # Who am I?
@@ -108,8 +109,9 @@ The practice of automatically deploying code changes to a shared repository to a
 
 ---
 layout: image-right
-image: https://cover.sli.dev
+image: /images/wall-of-confusion.png
 transition: slide-left
+backgroundSize: 50%
 ---
 
 # What is DevOps?
@@ -129,8 +131,13 @@ Notes can also sync with clicks
 -->
 
 ---
+layout: image-right
+image: /images/wall-of-confusion.png
+transition: slide-left
+backgroundSize: 50%
+---
 
-## level: 2
+## What is DevOps
 
 # Shiki Magic Move
 
