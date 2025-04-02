@@ -3,7 +3,7 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+background: /images/mountain-background.jpg
 # some information about your slides (markdown enabled)
 title: "Build, Test, and Deploy Again: A DevOps Tale"
 info: |
@@ -116,8 +116,6 @@ backgroundSize: 50%
 
 # What is DevOps?
 
-DevOps refers to a set of practices that integrates software development (Dev) and IT operations (Ops) to streamline the systems development life cycle. Its primary goal is to achieve faster and more reliable delivery of high-quality software.
-
 Beyond being a methodology, DevOps can be described as a culture or movement that fosters collaboration and communication among software developers, IT professionals, and other stakeholders involved in the software development process.
 
 <!--
@@ -131,7 +129,7 @@ Notes can also sync with clicks
 -->
 
 ---
-layout: default
+layout: two-cols
 transition: slide-left
 backgroundSize: 50%
 clicks: 2
@@ -139,26 +137,76 @@ clicks: 2
 
 # What is DevOps
 
-<div class="flex w-full">
-  <div class="flex-1 pr-4">
-    ## Your Left Side Content
-    
-    This is your text content.
-    Add as much text as needed here.
-  </div>
-  
-  <div class="flex-1 flex items-center justify-center">
-    <img 
-      v-if="$clicks === 0" 
-      src="/images/devops.png" 
-      class="w-full" 
-    />
-    <img 
-      v-if="$clicks >= 1" 
-      src="/images/wall-of-confusion.png" 
-      class="w-full" 
-    />
-  </div>
+- Break down the silos between development and operations.
+- Shared responsibility.
+- Automate repetitive tasks.
+- Embraces feedback loops while measuring success.
+- Focus on delivering value to the customer.
+
+::right::
+
+<div class="flex-1 flex items-center justify-center h-full p-4">
+  <img 
+    v-if="$clicks === 0" 
+    src="/images/devops.png" 
+    class="w-full" 
+  />
+  <img 
+    v-if="$clicks >= 1" 
+    src="/images/wall-of-confusion.png" 
+    class="w-full" 
+  />
+</div>
+
+---
+layout: two-cols-header
+---
+
+# Principles of DevOps
+
+::left::
+
+- **Flow:** Prioritize the flow of work from to customers.
+
+  - Reduce waste.
+  - Improve handoffs.
+  - Increase visibility.
+
+- **Feedback:** Amplify feedback.
+
+  - Shorten feedback loops.
+  - Encourage collaboration.
+
+- **Continuous Improvement:** Create a culture of experimentation, learning from failures, and sharing knowledge.
+
+::right::
+
+<div class="flex h-full items-center justify-center">
+
+```mermaid {alt: 'A simple sequence diagram', scale: 1.1}
+flowchart LR
+    %% Define Nodes
+    CI[Continuous Improvement]:::ciStyle e3@--> loop
+    subgraph loop[Flow Feedback Loop]
+        Flow:::flowStyle e1@--> Feedback:::feedbackStyle
+        Feedback:::feedbackStyle e2@--> Flow:::flowStyle
+    end
+
+    %% Define Animations
+    e1@{ animate: true }
+    e2@{ animate: true }
+    e3@{ animate: true }
+
+    %% Node Styles
+    classDef ciStyle fill:#FCE4EC,stroke:#EC407A,stroke-width:2px,color:#880E4F;
+    classDef flowStyle fill:#E3F2FD,stroke:#42A5F5,stroke-width:2px,color:#0D47A1;
+    classDef feedbackStyle fill:#E8F5E9,stroke:#66BB6A,stroke-width:2px,color:#1B5E20;
+
+    %% Subgraph Style
+    style loop fill:#000000,stroke:#FFD54F,stroke-width:2px,color:#FF8F00;
+
+```
+
 </div>
 
 ---
@@ -697,7 +745,7 @@ Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML D
 ---
 foo: bar
 dragPos:
-  square: 691,32,167,_,-16
+  square: 491,185,167,_,-16
 ---
 
 # Draggable Elements
