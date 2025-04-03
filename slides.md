@@ -211,24 +211,27 @@ layout: two-cols-header
 
 ::left::
 
-- **Flow:** Prioritize the flow of work from to customers.
+- **Flow:**
 
-  - Reduce waste.
-  - Improve handoffs.
-  - Increase visibility.
+  - Prioritize the flow to customers.
+  - Minimize bottlenecks.
 
-- **Feedback:** Amplify feedback.
+- **Feedback:**
 
+  - Amplify feedback.
   - Shorten feedback loops.
   - Encourage collaboration.
 
-- **Continuous Improvement:** Create a culture of experimentation, learning from failures, and sharing knowledge.
+- **Continuous Improvement:**
+  - Create a culture of experimentation.
+  - Learn from failures.
+  - Share knowledge.
 
 ::right::
 
 <div class="flex h-full items-center justify-center">
 
-```mermaid {alt: 'A simple sequence diagram', scale: 1.1}
+```mermaid {alt: 'A simple sequence diagram', scale: 1}
 flowchart LR
     %% Define Nodes
     CI[Continuous Improvement]:::ciStyle e3@--> loop
