@@ -153,55 +153,37 @@ layout: two-cols
 </v-clicks>
 
 ---
-layout: image-right
-image: /images/wall-of-confusion.png
+layout: default
 transition: slide-left
-backgroundSize: 50%
 ---
 
 # What is DevOps?
 
-Beyond being a methodology, DevOps can be described as a culture or movement that fosters collaboration and communication among software developers, IT professionals, and other stakeholders involved in the software development process.
+<v-switch>
+  <template v-slot:1>
+  
+  - DevOps is the integration and automation of the software development and information technology operations.
+  - DevOps encompasses necessary tasks of software development and can lead to shortening development time and improving the development life cycle.
+  - According to Neal Ford, DevOps, particularly through continuous delivery, employs the "Bring the pain forward" principle, tackling tough tasks early, fostering automation and swift issue detection.
+  - Software programmers and architects should use fitness functions to keep their software in check.
 
-<!--
-Notes can also sync with clicks
+  </template>
 
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
----
-layout: two-cols
-transition: slide-left
-backgroundSize: 50%
-clicks: 2
----
-
-# What is DevOps
-
-- Break down the silos between development and operations.
-- Shared responsibility.
-- Automate repetitive tasks.
-- Embraces feedback loops while measuring success.
-- Focus on delivering value to the customer.
-
-::right::
-
-<div class="flex-1 flex items-center justify-center h-full p-4">
-  <img 
-    v-if="$clicks === 0" 
-    src="/images/devops.png" 
-    class="w-full" 
+  <template v-slot:2>
+  <img
+    src="/images/devops.png"
+    class="w-full"
   />
-  <img 
-    v-if="$clicks >= 1" 
-    src="/images/wall-of-confusion.png" 
-    class="w-full" 
+  </template>
+  <template v-slot:3>
+  <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+  <img
+    src="/images/mess.png"
+    class="h-auto w-1/2"
   />
-</div>
+  </div>
+  </template>
+</v-switch>
 
 ---
 layout: two-cols-header
