@@ -42,7 +42,8 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 transition: slide-up
-layout: intro
+layout: image-right
+image: /images/ui-component-developer.jpg
 ---
 
 # Who am I?
@@ -51,17 +52,15 @@ Senior Software Developer at [SAS](https://www.sas.com/)
 
 - 👴 **Experience** - 13+ years of experience in Software Development at SAS concentrating mostly on frontend development.
   - <div><carbon:logo-react /> 6+ years in React</div>
-  - <div><carbon:workflow-automation /> 4+ years on Ops Team</div>
+  - <div><carbon:workflow-automation /> 4+ years on Enterprise UI Ops Team</div>
+  - 🖥️ Some frontend application development.
   - 🖌️ Lots of UI component development.
-  - 🏗️ Lots of application build, testing, and overall architecture of a component library/framework.
-- 🤷🏽‍♂️ Why am I here?
-  - 🤝 I agree with Code the Dream's mission.
-  - 🤐 I can't shut up sometimes.
-  - 🔄 Right now, I can't shut up about DevOps.
+  - 🏗️ Lots of application builds, testing, and overall architecture of a UI component library/framework.
+  - 🤷‍♂️ Is what I do really DevOps?
 
 <!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
+- Describe SAS some.
+- Discuss my background a bit, how I became a developer.
 -->
 
 <style>
