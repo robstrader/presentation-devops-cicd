@@ -94,17 +94,63 @@ A simple Vite Single Page Application (SPA) with a few components, a test suite 
 
 ---
 transition: slide-down
+layout: two-cols
 ---
-
-# What is CI/CD?
 
 ## Continuous Integration (CI)
 
-The practice of merging code changes into a shared repository frequently, ideally several times a day. Each merge triggers an automated build and test process to verify that the changes did not break the application.
+<br />
 
-## Continuous Delivery or Continuous Deployment (CD)
+- Combines code frequently to prevent "integration hell."
+- Catches bugs early with automated tests.
+- Saves time by automating builds and testing.
+- Keeps the team aligned with the latest code.
+- Ensures software is stable and ready to use.
 
-The practice of automatically deploying code changes to a shared repository to a production environment. Continuous Delivery means that the code is always in a deployable state, but the deployment is triggered manually. Continuous Deployment means that the code is automatically deployed to production.
+<br />
+
+<v-click>
+
+### Practices
+
+</v-click>
+
+<v-clicks>
+
+- Commit code frequently to a shared repository.
+- Run automated tests on each change.
+- Fix bugs as soon as they are detected.
+- Keep builds fast and reliable.
+
+</v-clicks>
+
+::right::
+
+## Continuous Delivery (CD)
+
+<br />
+
+- Ensures code is always ready for deployment.
+- Verifies every change through automated tests.
+- Reduces risk by deploying smaller, tested updates.
+- Speeds up delivery while keeping quality intact.
+- Allows teams to release manually or automatically, as needed.
+
+<br />
+
+<v-click>
+
+### Practices
+
+</v-click>
+<v-clicks>
+
+- Ensure code passes all tests before deployment.
+- Use automation to deploy updates efficiently.
+- Deploy smaller, incremental changes.
+- Monitor deployments for issues and feedback.
+
+</v-clicks>
 
 ---
 layout: image-right
