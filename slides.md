@@ -48,14 +48,14 @@ image: /images/ui-component-developer.jpg
 
 # Who am I?
 
-Senior Software Developer at [SAS](https://www.sas.com/)
+Senior Software Developer at SAS
 
 - 👴 **Experience** - 13+ years of experience in Software Development at SAS concentrating mostly on frontend development.
   - <div><carbon:logo-react /> 6+ years in React</div>
   - <div><carbon:workflow-automation /> 4+ years on Enterprise UI Ops Team</div>
-  - 🖥️ Some frontend application development.
-  - 🖌️ Lots of UI component development.
-  - 🏗️ Lots of application builds, testing, and overall architecture of a UI component library/framework.
+  - 🖥️ Frontend application development.
+  - 🖌️ UI component development.
+  - 🏗️ Application builds, testing, security scans, 3rd party upgrades and overall architecture of a UI component library/framework.
   - 🤷‍♂️ Is what I do really DevOps?
 
 <!--
