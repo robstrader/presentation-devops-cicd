@@ -28,9 +28,6 @@ mdc: true
 </div>
 
 <div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
   <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
     <carbon:logo-github />
   </a>
@@ -58,7 +55,7 @@ Senior Software Developer at SAS
   - 🏗️ Application Builds
   - 🧪 Testing
   - 🔒 Security Scans
-  - 🏛️ Architecture of a UI component Library/Framework.
+  - 🏛️ Architecture of a UI component Library/Framework
 
 <!--
 - Describe SAS some.
@@ -69,7 +66,7 @@ Senior Software Developer at SAS
 <style>
 h1 {
   background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-image: linear-gradient(45deg,hsl(228, 85.80%, 69.60%) 5%,rgb(213, 229, 247) 50%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -80,6 +77,9 @@ h1 {
 
 ---
 transition: slide-left
+layout: image-right
+image: /images/cicd-end.png
+backgroundSize: contain
 ---
 
 # What are we building?
@@ -91,7 +91,9 @@ A simple Vite Single Page Application (SPA) with a few components, a test suite 
 - **GitHub Actions** - A CI/CD tool for GitHub repositories.
 - **GitHub Pages** - A free static site hosting service.
 
-<!-- Briefly discus each of these tools and what they do. -->
+<!--
+Briefly discus each of these tools and what they do.
+-->
 
 ---
 transition: slide-down
