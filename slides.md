@@ -53,14 +53,17 @@ Senior Software Developer at SAS
 - 👴 **Experience** - 13+ years of experience in Software Development at SAS concentrating mostly on frontend development.
   - <div><carbon:logo-react /> 6+ years in React</div>
   - <div><carbon:workflow-automation /> 4+ years on Enterprise UI Ops Team</div>
-  - 🖥️ Frontend application development.
-  - 🖌️ UI component development.
-  - 🏗️ Application builds, testing, security scans, 3rd party upgrades and overall architecture of a UI component library/framework.
-  - 🤷‍♂️ Is what I do really DevOps?
+  - 🖥️ Frontend Application Development
+  - 🖌️ UI Component Development
+  - 🏗️ Application Builds
+  - 🧪 Testing
+  - 🔒 Security Scans
+  - 🏛️ Architecture of a UI component Library/Framework.
 
 <!--
 - Describe SAS some.
 - Discuss my background a bit, how I became a developer.
+- Transition to what we are going to build.
 -->
 
 <style>
@@ -75,10 +78,6 @@ h1 {
 }
 </style>
 
-<!--
-Here is another comment.
--->
-
 ---
 transition: slide-left
 ---
@@ -91,6 +90,8 @@ A simple Vite Single Page Application (SPA) with a few components, a test suite 
 - **Vitest** - A test runner for Vite.
 - **GitHub Actions** - A CI/CD tool for GitHub repositories.
 - **GitHub Pages** - A free static site hosting service.
+
+<!-- Briefly discus each of these tools and what they do. -->
 
 ---
 transition: slide-down
