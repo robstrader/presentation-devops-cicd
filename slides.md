@@ -213,7 +213,7 @@ layout: two-cols-header
 
 <div class="flex h-full items-center justify-center">
 
-```mermaid {alt: 'A simple sequence diagram', scale: 1}
+```mermaid {alt: 'Flow, Feedback and Continuous Improvement', scale: 1}
 flowchart LR
     %% Define Nodes
     CI[Continuous Improvement]:::ciStyle e3@--> loop
@@ -235,6 +235,39 @@ flowchart LR
     %% Subgraph Style
     style loop fill:#000000,stroke:#FFD54F,stroke-width:2px,color:#FF8F00;
 
+```
+
+</div>
+
+---
+layout: default
+---
+
+# The History of DevOps
+
+```mermaid {alt: 'A brief history of DevOps', scale: 0.8}
+timeline
+    2006 : Amazon adopts "You build it, you run it" model
+    2009 : John Allspaw and Paul Hammond present "10+ Deploys Per Day"
+         : First DevOpsDays conference in Ghent, Belgium
+    2011 : The Phoenix Project <br>by Gene Kim, Kevin Behr, and George Spafford
+    2014 : The DevOps Handbook <br>by Gene Kim, Jez Humble, Patrick Debois, and John Willis
+```
+
+---
+layout: default
+---
+
+# The History of the History of DevOps
+
+<div class="flex justify-center">
+
+```mermaid {alt: 'A brief history the history of DevOps', scale: 1}
+timeline
+    1920s - 1930s : Statistical Process Control developed by Walter Shewhart and W. Edwards Deming
+    1950s - 1960s : Toyota Production System developed by Taiichi Ohno and Eiji Toyoda with help of W. Edwards Deming
+    1980s - 1990s : Lean Manufacturing exemplified by Toyota Production System
+    : The Goal <br>by Eliyahu M. Goldratt
 ```
 
 </div>
