@@ -57,12 +57,6 @@ Senior Software Developer at SAS
   - 🔒 Security Scans
   - 🏛️ Architecture of a UI component Library/Framework
 
-<!--
-- Describe SAS some.
-- Discuss my background a bit, how I became a developer.
-- Transition to what we are going to build.
--->
-
 <style>
 h1 {
   background-color: #2B90B6;
@@ -74,6 +68,12 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 </style>
+
+<!--
+- Describe SAS some.
+- Discuss my background a bit, how I became a developer.
+- Transition to what we are going to build.
+-->
 
 ---
 transition: slide-left
@@ -154,6 +154,12 @@ layout: two-cols
 - Monitor deployments for issues and feedback.
 
 </v-clicks>
+
+<!--
+So why do all this? You are seeking an advantage. Do not do this for legitimacy.
+
+Don't just copy. You don't know what to copy.
+-->
 
 ---
 layout: default
@@ -248,14 +254,25 @@ layout: default
 
 # The History of DevOps
 
+<div class="flex h-full items-center justify-center">
+
 ```mermaid {alt: 'A brief history of DevOps', scale: 0.8}
 timeline
+    2001 : Agile Manifesto
     2006 : Amazon adopts "You build it, you run it" model
     2009 : John Allspaw and Paul Hammond present "10+ Deploys Per Day"
          : First DevOpsDays conference in Ghent, Belgium
     2011 : The Phoenix Project <br>by Gene Kim, Kevin Behr, and George Spafford
     2014 : The DevOps Handbook <br>by Gene Kim, Jez Humble, Patrick Debois, and John Willis
 ```
+
+</div>
+
+<!--
+Optimizing the human experience and performance of software... with software... and with humans. -Andrew Clay Shafer 
+
+One gets a good rating fighting a fire. The result is visible; can be quantified. If you do it right the first time, you are invisible. You satisfied the requirements. That is your job. Mess it up, and correct it later, you become a here. - W. Edward Demin
+-->
 
 ---
 layout: default
@@ -265,15 +282,72 @@ layout: default
 
 <div class="flex justify-center">
 
-```mermaid {alt: 'A brief history the history of DevOps', scale: 1}
+```mermaid {alt: 'A brief history the history of DevOps', scale: 0.8}
 timeline
-    1920s - 1930s : Statistical Process Control developed by Walter Shewhart and W. Edwards Deming
-    1950s - 1960s : Toyota Production System developed by Taiichi Ohno and Eiji Toyoda with help of W. Edwards Deming
-    1980s - 1990s : Lean Manufacturing exemplified by Toyota Production System
-    : The Goal <br>by Eliyahu M. Goldratt
+    1908 : First Ford Model T
+    1911 : The Principles of Scientific Management by Frederick Winslow Taylor
+    1930s - 1940s : Shewart and Deming develop Statistical Quality Control
+    1940s - 1950s : Toyota and Mitsubishi on Lean Manufacturing
+    1950s - 1960s : Lean Manufacturing implemented by Toyota Production System
 ```
 
 </div>
+
+<!--
+Maybe talk about when Deming's 14 points were developed?
+Plan Do Check Act
+-->
+
+---
+transition: slide-down
+layout: two-cols
+---
+
+## Continuous Integration (CI)
+
+<br />
+
+- Combines code frequently to prevent "integration hell."
+- Catches bugs early with automated tests.
+- Saves time by automating builds and testing.
+- Keeps the team aligned with the latest code.
+- Ensures software is stable and ready to use.
+
+<br />
+
+### Practices
+
+- Commit code frequently to a shared repository.
+- Run automated tests on each change.
+- Fix bugs as soon as they are detected.
+- Keep builds fast and reliable.
+
+::right::
+
+## Continuous Delivery (CD)
+
+<br />
+
+- Ensures code is always ready for deployment.
+- Verifies every change through automated tests.
+- Reduces risk by deploying smaller, tested updates.
+- Speeds up delivery while keeping quality intact.
+- Allows teams to release manually or automatically, as needed.
+
+<br />
+
+### Practices
+
+- Ensure code passes all tests before deployment.
+- Use automation to deploy updates efficiently.
+- Deploy smaller, incremental changes.
+- Monitor deployments for issues and feedback.
+
+<!--
+Context matters!
+
+ "In theory, there is no difference between theory and practice. But, in practice, there is." - Yogi Berra
+-->
 
 ---
 
