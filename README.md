@@ -18,8 +18,6 @@ Learn more about Slidev at the [documentation](https://sli.dev/).
 
 The goal of this presentation is to show how to use CI/CD tools to automate the testing and deployment of a web application.
 
-Many developers getting training in the Code the Dream program are not familiar with CI/CD tools. This presentation will help them understand the importance of these tools and how to use them.
-
 The why is more important than the what. The importance of continuous intergration, automated testing and continuous deployment is not just about the tools, but about the process. It is about he DevOps principles of flow, feedback, and continuous learning. It is about the culture of collaboration and shared responsibility and how to be a good steward of a project with a community of developers.
 
 I want to impress upon them very briefly the history of DevOps, what problem it solves, and how it is a key part of modern software development.
