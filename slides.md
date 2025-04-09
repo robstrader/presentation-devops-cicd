@@ -19,16 +19,14 @@ transition: fade
 mdc: true
 ---
 
-# Build, Test, and Deploy Again... A DevOps Tale
-
-## CI/CD: The Fellowship of the Build
+# CI/CD: Build, Test, and Deploy Again... A DevOps Tale
 
 <div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
   One does not simply skip to the next slide. <carbon:arrow-right />
 </div>
 
 <div class="abs-br m-6 text-xl">
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
+  <a href="https://github.com/robstrader/presentation-devops-cicd" target="_blank" class="slidev-icon-btn">
     <carbon:logo-github />
   </a>
 </div>
