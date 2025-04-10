@@ -187,9 +187,9 @@ transition: slide-left
   <template v-slot:1>
     <div class="text-2xl"><em>DevOps is the integration and automation of the software development and information technology operations. -Wikipedia</em></div>
     <br />
-    <div class="text-2xl"><em>DevOps is a set of cultural norms, practices, and tools that enable the faster flow of planned work – from commit to release – while improving the stability, reliability, availability, and security of the resulting service. -Gene Kim</em></div>
+    <div class="text-2xl"><em>Culture, Automation, Measurement, Sharing(CAMS) -John Willis</em></div>
     <br />
-    <div class="text-2xl"><em>DevOps is a movement to build a culture of shared responsibility across the entire delivery pipeline. -Patrick Debois</em></div>
+    <div class="text-2xl"><em>A set of practices intended to reduce the time between committing a change to a system and the change being placed into normal production, while ensuring high-quality. -Len Bass, Ingo Weber & Liming Zhu</em></div>
     <br />
     <div class="text-2xl"><em>Optimizing the human experience and performance of software... with software... and with humans. -Andrew Clay Shafer</em></div>
     
