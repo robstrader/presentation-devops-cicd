@@ -385,3 +385,14 @@ Context matters!
 
  "In theory, there is no difference between theory and practice. But, in practice, there is." - Yogi Berra
 -->
+
+---
+layout: default
+transition: slide-left
+---
+
+# Now let's build something!
+
+<div class="text-3xl"><em>In theory, there is no difference between theory and practice. But, in practice, there is. - Yogi Berra</em></div>
+<br />
+<a href="https://github.com/robstrader/workshop-devops-cicd" target="_blank" rel="noopener noreferrer">https://github.com/robstrader/workshop-devops-cicd</a>
