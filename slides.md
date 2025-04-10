@@ -95,7 +95,8 @@ Briefly discus each of these tools and what they do.
 
 ---
 transition: slide-down
-layout: two-cols
+layout: image-right
+image: /images/ci.png
 ---
 
 ## Continuous Integration (CI)
@@ -125,17 +126,27 @@ layout: two-cols
 
 </v-clicks>
 
-::right::
+<!--
+So why do all this? You are seeking an advantage. Do not do this for legitimacy.
+
+Don't just copy. You don't know what to copy.
+-->
+
+---
+transition: slide-down
+layout: image-right
+image: /images/delivery.jpg
+---
 
 ## Continuous Delivery (CD)
 
 <br />
 
-- Ensures code is always ready for deployment.
-- Verifies every change through automated tests.
+- Ensures code is ready for deployment.
+- Verifies changes through automated tests.
 - Reduces risk by deploying smaller, tested updates.
-- Speeds up delivery while keeping quality intact.
-- Allows teams to release manually or automatically, as needed.
+- Rapid delivery with high quality.
+- Allows teams to release manually or automatically.
 
 <br />
 
@@ -146,10 +157,10 @@ layout: two-cols
 </v-click>
 <v-clicks>
 
-- Ensure code passes all tests before deployment.
+- Code passes all tests before deployment.
 - Use automation to deploy updates efficiently.
 - Deploy smaller, incremental changes.
-- Monitor deployments for issues and feedback.
+- Monitor deployments for issues.
 
 </v-clicks>
 
