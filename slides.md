@@ -279,8 +279,9 @@ timeline
     2006 : Amazon adopts "You build it, you run it" model
     2009 : John Allspaw and Paul Hammond present "10+ Deploys Per Day"
          : First DevOpsDays conference in Ghent, Belgium
-    2011 : The Phoenix Project <br>by Gene Kim, Kevin Behr, and George Spafford
-    2014 : The DevOps Handbook <br>by Gene Kim, Jez Humble, Patrick Debois, and John Willis
+    2011 : The Phoenix Project
+    2014 : The DevOps Handbook
+    2018 : Accelerate
 ```
 
 </div>
@@ -301,9 +302,10 @@ layout: default
 timeline
     1908 : First Ford Model T
     1911 : The Principles of Scientific Management by Frederick Winslow Taylor
-    1930s - 1940s : Shewart and Deming develop Statistical Quality Control
-    1940s - 1950s : Toyota and Mitsubishi on Lean Manufacturing
+    1924 : Statistical Process Control by Walter Shewart
+    1950s : Plan-Do-Check-Act by W. Edwards Deming
     1950s - 1960s : Lean Manufacturing implemented by Toyota Production System
+    1984 : The Goal by Eliyahu M. Goldratt
 ```
 
 </div>
