@@ -90,7 +90,9 @@ A simple Vite Single Page Application (SPA) with a few components, a test suite 
 - **GitHub Pages** - A free static site hosting service.
 
 <!--
-Briefly discus each of these tools and what they do.
+- Briefly discus each of these tools and what they do.
+- Mention that these are just tools, and that they could easily be replaced with others, but the principles would remain the same.
+- These are examples of how to implement CI/CD, so let's discuss what CI/CD is.
 -->
 
 ---
@@ -103,7 +105,7 @@ image: /images/ci.png
 
 <br />
 
-- Combines code frequently to prevent "integration hell."
+- Combines code frequently to prevent "integration hell".
 - Catches bugs early with automated tests.
 - Saves time by automating builds and testing.
 - Keeps the team aligned with the latest code.
@@ -127,9 +129,10 @@ image: /images/ci.png
 </v-clicks>
 
 <!--
-So why do all this? You are seeking an advantage. Do not do this for legitimacy.
-
-Don't just copy. You don't know what to copy.
+- There is only one interesting version of the code.
+- Changes are always visible.
+- Makes code reviewing so much easier.
+- Keep unfinished features unreachable or behind a feature flag.
 -->
 
 ---
@@ -165,9 +168,12 @@ image: /images/delivery.jpg
 </v-clicks>
 
 <!--
-So why do all this? You are seeking an advantage. Do not do this for legitimacy.
-
-Don't just copy. You don't know what to copy.
+- Shortens the lengths of plans. Keep plans small.
+- Recover quickly from failures.
+- Comes from the Agile Manifesto.
+- Logical extension of CI.
+- Try to disprove that the software is in a good state.
+- Releasibility is the target, which makes releasing a business decision, not a technical one.
 -->
 
 ---
@@ -179,12 +185,14 @@ transition: slide-left
 
 <v-switch>
   <template v-slot:1>
-  
-  - DevOps is the integration and automation of the software development and information technology operations.
-  - DevOps encompasses necessary tasks of software development and can lead to shortening development time and improving the development life cycle.
-  - According to Neal Ford, DevOps, particularly through continuous delivery, employs the "Bring the pain forward" principle, tackling tough tasks early, fostering automation and swift issue detection.
-  - Software programmers and architects should use fitness functions to keep their software in check.
-
+    <div class="text-2xl"><em>DevOps is the integration and automation of the software development and information technology operations. -Wikipedia</em></div>
+    <br />
+    <div class="text-2xl"><em>DevOps is a set of cultural norms, practices, and tools that enable the faster flow of planned work – from commit to release – while improving the stability, reliability, availability, and security of the resulting service. -Gene Kim</em></div>
+    <br />
+    <div class="text-2xl"><em>DevOps is a movement to build a culture of shared responsibility across the entire delivery pipeline. -Patrick Debois</em></div>
+    <br />
+    <div class="text-2xl"><em>Optimizing the human experience and performance of software... with software... and with humans. -Andrew Clay Shafer</em></div>
+    
   </template>
 
   <template v-slot:2>
@@ -278,8 +286,6 @@ timeline
 </div>
 
 <!--
-Optimizing the human experience and performance of software... with software... and with humans. -Andrew Clay Shafer 
-
 One gets a good rating fighting a fire. The result is visible; can be quantified. If you do it right the first time, you are invisible. You satisfied the requirements. That is your job. Mess it up, and correct it later, you become a here. - W. Edward Demin
 -->
 
