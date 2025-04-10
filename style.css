@@ -1,0 +1,8 @@
+.slidev-layout h1 {
+  color: #abe9ff;
+}
+
+.slidev-layout h1 + p {
+  color: #ffffff;
+  opacity: 0.8;
+}

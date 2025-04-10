@@ -55,18 +55,6 @@ Senior Software Developer at SAS
   - 🔒 Security Scans
   - 🏛️ Architecture of a UI component Library/Framework
 
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg,hsl(228, 85.80%, 69.60%) 5%,rgb(213, 229, 247) 50%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
 <!--
 - Describe SAS some.
 - Discuss my background a bit, how I became a developer.
