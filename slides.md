@@ -211,6 +211,38 @@ transition: slide-left
   </template>
 </v-switch>
 
+<!--
+One gets a good rating fighting a fire. The result is visible; can be quantified. If you do it right the first time, you are invisible. You satisfied the requirements. That is your job. Mess it up, and correct it later, you become a here. - W. Edward Deming
+
+- Usually think of
+  - Build Automation
+  - Test Automation
+  - Infrastructure as Code
+  - Deployment Automation
+  - Deployment Pipelines
+
+- Also think of
+  - Security
+  - Any two teams, Dev/Product, Dev/QA, Product/QA, Product/Ops, etc.
+
+- Requirements stage
+  - Design
+  - Team structure
+  - Regulatory requirements
+  - Business
+
+- Financing
+  - Incentives
+  - Governance
+
+- After release
+  - Monitoring
+  - Observability
+  - Chaos engineering
+  - A/B Testing
+  - Evidence Based Decisions
+-->
+
 ---
 layout: two-cols-header
 ---
