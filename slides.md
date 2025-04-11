@@ -393,6 +393,6 @@ transition: slide-left
 
 # Now let's build something!
 
-<div class="text-3xl"><em>In theory, there is no difference between theory and practice. But, in practice, there is. - Yogi Berra</em></div>
+<div class="flex flex-col h-full items-center justify-center text-3xl pb-16"><em>In theory, there is no difference between theory and practice. But, in practice, there is. - Yogi Berra</em>
 <br />
-<a href="https://github.com/robstrader/workshop-devops-cicd" target="_blank" rel="noopener noreferrer">https://github.com/robstrader/workshop-devops-cicd</a>
+<div><a href="https://github.com/robstrader/workshop-devops-cicd" target="_blank" rel="noopener noreferrer">https://github.com/robstrader/workshop-devops-cicd</a></div></div>
